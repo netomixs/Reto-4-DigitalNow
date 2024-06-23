@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/ProyectosJs/assets/css/bootstrap.min.css">
+    <script src="/ProyectosJs/assets/js/bootstrap.min.js"></script>
+    <script src="/ProyectosJs/assets/js/popper.min.js"></script>
+ 
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+   
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <button class="btn btn-info" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseProyectosJs">
+                            Proyectos JS
+                        </button>
+
+                        <div class="collapse navbar  " id="collapseProyectosJs">
+                            <ul class="nav flex-column">
+
+                                <li class="nav-item">
+                                    <button onclick="loadContent('/ProyectosJs/Calculadora/calculadora.html')"
+                                        type="button" class="btn btn-link">Mini-proyecto 1: suma de
+                                        ingresos</button>
+                                </li>
+                                <li class="nav-item">
+                                    <button onclick="loadContent('/ProyectosJs/Scroll/scroll.html')"
+                                        type="button" class="btn btn-link">Mini-proyecto 2: scroll infinito</button>
+                                </li>
+                                <li class="nav-item">
+                                    <button onclick="loadContent('/ProyectosJs/Breakout/index.html')" type="button" class="btn btn-link">Mini-proyecto 3: juego breakout</button>
+                                </li>
+                                <li class="nav-item">
+                                    <button   onclick="loadContent('/ProyectosJs/CuentaRegresiva/index.html')" type="button" class="btn btn-link">Mini-proyecto 4: cuenta
+                                        regresiva</button>
+                                </li>
+                                <li class="nav-item">
+                                    
+                                    <button onclick="loadContent('/ProyectosJs/AudioToText/index.html')" type="button" class="btn btn-link">Mini-proyecto 5: audio a número.</button>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <iframe width="max" name="Frame" title="Frame" id="contentFrame"
+        src="/ProyectosJs/Calculadora/calculadora.html"></iframe>
+    <script src="/index.js"></script>
+</body>
+
+</html>

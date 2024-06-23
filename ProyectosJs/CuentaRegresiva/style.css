@@ -1,0 +1,23 @@
+ .number-content{
+  width: 15vw;
+  height: 15vw;
+  background-color: black;
+  text-align: center;
+  font-size: 8vw;
+  color: yellow;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-self: center;
+  align-content: center;;
+  align-items: center;
+ }
+ .label{
+    text-align: center; 
+    font-size: 2vw;
+ 
+ }
+ .bloque{
+ 
+ }
